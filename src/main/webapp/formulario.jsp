@@ -67,11 +67,11 @@
         <label>Costo Extra:</label>
         <input type="number" name="costoExtra">
         
-        <label>Tratamiento:</label>
+        <!-- <label>Tratamiento:</label>
         <select name="tratamiento">
             <option value="limpieza">Limpieza</option>
-            <!-- Agrega más opciones de tratamientos aquí -->
-        </select>
+        </select> 
+            Implementacion a futuro con base de datos-->
         
         <input type="submit" value="Calcular Costo">
     </form>
