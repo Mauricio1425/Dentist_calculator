@@ -37,17 +37,6 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
             </plugin>
-            <!-- Agrega el plugin de App Engine para despliegue en Google Cloud Platform -->
-            <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>appengine-maven-plugin</artifactId>
-                <version>2.4.0</version>
-                <configuration>
-                    <!-- Configura la región y el proyecto de GCP -->
-                    <deploy.projectId>tu-proyecto-de-gcp</deploy.projectId>
-                    <deploy.version>1</deploy.version>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>
