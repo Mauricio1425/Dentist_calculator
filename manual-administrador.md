@@ -11,17 +11,8 @@ En esta sección, se detallan los pasos necesarios para configurar el producto a
 2. Configure las variables de entorno JAVA_HOME y CATALINA_HOME.
 3. Despliegue el archivo WAR de la aplicación en el servidor Tomcat.
 
-### Configuración de la Base de Datos
-1. Instale MySQL 8.0 en el servidor de base de datos.
-2. Cree una base de datos llamada `clinica_dental_smil`.
-3. Ejecute el script SQL proporcionado en el directorio `sql` para crear las tablas y cargar datos iniciales.
-
 ## Procedimientos de Mantenimiento
 Esta sección proporciona instrucciones para mantener y actualizar la aplicación en producción.
-
-### Respaldo de la Base de Datos
-1. Realice copias de seguridad regulares de la base de datos utilizando la herramienta de respaldo preferida.
-2. Almacene las copias de seguridad en un lugar seguro fuera del servidor de producción.
 
 ### Actualización de la Aplicación
 1. Descargue la última versión del archivo WAR de la aplicación desde el repositorio de GitHub.
