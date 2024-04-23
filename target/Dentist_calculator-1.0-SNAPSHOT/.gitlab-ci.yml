@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - ./gradlew build
+
+test:
+  stage: test
+  script:
+    - ./gradlew test
+
+deploy:
+  stage: deploy
+  script:
+    - # Comandos para desplegar la aplicación, por ejemplo, copiar archivos a un servidor
