@@ -20,21 +20,6 @@ Esta sección proporciona instrucciones para mantener y actualizar la aplicació
 3. Reemplace el archivo WAR existente con la nueva versión.
 4. Reinicie el servidor Tomcat.
 
-## Acceso a Funciones Administrativas
-Esta sección describe cómo acceder a las funciones administrativas de la aplicación.
-
-### Panel de Administración
-1. Abra un navegador web.
-2. Navegue a la URL de la aplicación seguida de `/admin`.
-3. Ingrese las credenciales de administrador para acceder al panel de administración.
-
-## Problemas Comunes y Soluciones
-En esta sección, se enumeran problemas comunes que pueden surgir durante la administración de la aplicación y cómo solucionarlos.
-
-### Error de Conexión a la Base de Datos
-- **Problema:** La aplicación no puede conectarse a la base de datos.
-- **Solución:** Verifique la configuración de conexión en el archivo de configuración `application.properties` y asegúrese de que las credenciales de la base de datos sean correctas.
-
 ## Contribución
 Para contribuir al desarrollo de la aplicación, siga los siguientes pasos:
 1. Clone el repositorio desde GitHub.
