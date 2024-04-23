@@ -6,12 +6,12 @@ stages:
 build:
   stage: build
   script:
-    - ./gradlew build
+    - mvn build
 
 test:
   stage: test
   script:
-    - ./gradlew test
+    - mvn test
 
 deploy:
   stage: deploy
