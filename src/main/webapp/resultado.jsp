@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Resultado del Cálculo</title>
+    <title>Resultado del CÃ¡lculo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Resultado del Cálculo</h2>
+        <h2>Resultado del CÃ¡lculo</h2>
         <p>El costo total del tratamiento es: <%= request.getAttribute("costoTotal") %></p>
     </div>
 </body>
