@@ -75,5 +75,6 @@ La aplicación seguirá una arquitectura MVC (Modelo-Vista-Controlador), utiliza
 - Implementación de autenticación de usuarios.
 - Mejora de la interfaz de usuario.
 - Integración con sistemas de gestión de pacientes.
+- Integracion de base de datos para la administracion de personas, citas y tratamientos.
 
 
