@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-public class SeleccionTratamientoServlets extends HttpServlet {
+public class SeleccionTratamientoServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -20,7 +20,19 @@ public class SeleccionTratamientoServlets extends HttpServlet {
         // Calcular el costo del tratamiento seleccionado
         double costoTotal = 0;
         if(tratamiento.equals("limpieza")) {
-            costoTotal = CalculadoraCostos.calcularCostoLimpieza(costoBase, descuento, costoExtra);
+            costoTotal = CalculadoraCostos.calcularCostoLimpieza(costoBase = 200, descuento, costoExtra);
+        }
+        if(tratamiento.equals("Ortodoncia")) {
+            costoTotal = CalculadoraCostos.calcularCostoLimpieza(costoBase = 1000, descuento, costoExtra);
+        }
+        if(tratamiento.equals("Extraccion")) {
+            costoTotal = CalculadoraCostos.calcularCostoLimpieza(costoBase = 450, descuento, costoExtra);
+        }
+        if(tratamiento.equals("Blanqueamiento")) {
+            costoTotal = CalculadoraCostos.calcularCostoLimpieza(costoBase = 300, descuento, costoExtra);
+        }
+        if(tratamiento.equals("Periodoncia")) {
+            costoTotal = CalculadoraCostos.calcularCostoLimpieza(costoBase = 350, descuento, costoExtra);
         }
         
         // Enviar resultado a la página JSP
