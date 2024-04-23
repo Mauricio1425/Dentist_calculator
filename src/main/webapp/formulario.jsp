@@ -57,7 +57,7 @@
 </head>
 <body>
     <h2>Seleccione un tratamiento:</h2>
-    <form action="SeleccionTratamientoServlets" method="post">
+    <form action="SeleccionTratamientoServlet" method="post">
         <label>Costo Base:</label>
         <input type="number" name="costoBase">
         
@@ -67,13 +67,18 @@
         <label>Costo Extra:</label>
         <input type="number" name="costoExtra">
         
-        <!-- <label>Tratamiento:</label>
+        <label>Tratamiento:</label>
         <select name="tratamiento">
             <option value="limpieza">Limpieza</option>
-        </select> 
-            Implementacion a futuro con base de datos-->
+            <option value="limpieza">Ortodoncia</option>
+            <option value="limpieza">Extraccion</option>
+            <option value="limpieza">Blanqueamiento</option>
+            <option value="limpieza">Periodoncia</option>
+            
+        </select><br>
         
         <input type="submit" value="Calcular Costo">
     </form>
 </body>
 </html>
+
