@@ -1,4 +1,4 @@
-# Clínica Dental Smil
+# Dentist Calculator
 
 ## Descripción
 Este proyecto consiste en el desarrollo de una aplicación web para la Clínica Dental Smil, la cual permite calcular los costos de diversos tratamientos dentales de manera rápida y precisa.
