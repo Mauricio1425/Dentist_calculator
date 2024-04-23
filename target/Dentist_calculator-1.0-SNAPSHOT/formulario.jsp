@@ -70,7 +70,10 @@
         <label>Tratamiento:</label>
         <select name="tratamiento">
             <option value="limpieza">Limpieza</option>
-            <!-- Agrega más opciones de tratamientos aquí -->
+            <option value="limpieza">Ortodoncia</option>
+            <option value="limpieza">Extraccion</option>
+            <option value="limpieza">Blanqueamiento</option>
+            <option value="limpieza">Periodoncia</option>
         </select>
         
         <input type="submit" value="Calcular Costo">
