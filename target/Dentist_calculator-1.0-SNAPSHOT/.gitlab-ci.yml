@@ -16,4 +16,4 @@ test:
 deploy:
   stage: deploy
   script:
-    - # Comandos para desplegar la aplicación, por ejemplo, copiar archivos a un servidor
+    - gcloud app deploy
